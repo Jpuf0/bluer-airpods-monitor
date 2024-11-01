@@ -18,7 +18,7 @@
           };
 
           rustPkgs = pkgs.rustBuilder.makePackageSet {
-            rustVersion = "1.82.0";
+            rustVersion = "1.75.0";
             packageFun = import ./Cargo.nix;
           };
         in rec {
